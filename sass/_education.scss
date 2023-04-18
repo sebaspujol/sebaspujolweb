@@ -1,0 +1,38 @@
+.card {
+    margin: 0px 50px;
+  }
+  .card-body {
+    background-color: #b9b9b9;
+  }
+  
+  .card-data {
+    background-color: #173b65;
+    height: 100%;
+    color: wheat;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .parallax-exp {
+    background-image: url("../img/fondo montaña.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+  

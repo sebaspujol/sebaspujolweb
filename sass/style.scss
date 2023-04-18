@@ -1,0 +1,111 @@
+@import "index";
+@import "about me";
+@import "experience";
+@import "education";
+@import "contact";
+
+/*estilos generales*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 10;
+}
+h1 {
+  text-align: center;
+  padding: 50px;
+}
+h2 {
+  text-align: center;
+  color: antiquewhite;
+}
+h3 {
+  text-align: center;
+  padding: 0px;
+}
+h4 {
+  text-align: center;
+  background-color: beige;
+}
+h5 {
+  text-align: center;
+  text-size-adjust: 20px;
+}
+h6 {
+  text-align: center;
+}
+p {
+  padding: 50px;
+  text-align: center;
+}
+body {
+  background-color: rgb(123, 123, 122);
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(96, 65, 4);
+  z-index: 100;
+}
+.menu-nav {
+  padding: 20px;
+  background-color: rgb(12, 10, 10);
+  display: flex;
+  align-items: flex-end;
+}
+nav ul {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  .nav-link {
+    color: rgb(36, 34, 34);
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+}
+p2 {
+  color: rgb(35, 1, 1);
+  height: 100px;
+  font-weight: bolded;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin: 90px;
+  border-top: 3px solid black;
+}
+.CVS {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 130px;
+}
+
+/* MEDIA QUERIES*/
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+  /*index*/
+  .parallax {
+    height: 800px;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  /*about me*/
+  .about-me {
+    flex-direction: column;
+  }
+  .about-me img {
+    width: 100%;
+  }
+}

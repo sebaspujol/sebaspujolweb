@@ -1,0 +1,40 @@
+.photo-container {
+  display: grid;
+  place-content: center;
+}
+.photo-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  /* gap: 10px; */
+  grid-row-gap: 5px;
+  justify-items: center;
+  margin-top: 5px;
+}
+
+.parallax {
+  background-image: url("../img/index header.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-title {
+  color: rgb(245, 199, 114);
+  font-weight: 900;
+}
+.profile-text {
+  font-size: 1.3rem;
+}
+
+.profile-text p {
+  padding: 0px 50px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}

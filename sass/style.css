@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+.photo-container {
+  display: grid;
+  place-content: center;
+}
+
+.photo-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat 4, 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  /* gap: 10px; */
+  grid-row-gap: 5px;
+  justify-items: center;
+  margin-top: 5px;
+}
+
+.parallax {
+  background-image: url("../img/index header.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-title {
+  color: wheat;
+  font-weight: 900;
+}
+
+.profile-text {
+  font-size: 1.3rem;
+}
+
+.profile-text p {
+  padding: 0px 50px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 30px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.about-me p {
+  padding: 0px 50px;
+  margin: 30px 0px;
+}
+
+.card {
+  margin: 0px 50px;
+}
+
+.card-body {
+  background-color: #b9b9b9;
+}
+
+.card-data {
+  background-color: #03152a;
+  height: 100%;
+  color: wheat;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.parallax-exp {
+  background-image: url("../img/trabajo equipo.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.Educations-card {
+  background-image: url("../img/919004.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+
+.twitter-timeline {
+  width: 200;
+  height: 200;
+}
+
+/*estilos generales*/
+* {
+  padding: 0;
+  margin: 10;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+h3 {
+  text-align: center;
+  padding: 0px;
+}
+
+h4 {
+  text-align: center;
+  background-color: beige;
+}
+
+h5 {
+  text-align: center;
+  -webkit-text-size-adjust: 20px;
+     -moz-text-size-adjust: 20px;
+          text-size-adjust: 20px;
+}
+
+h6 {
+  text-align: center;
+}
+
+p {
+  padding: 50px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(123, 122, 122);
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(123, 122, 122);
+  z-index: 100;
+}
+
+.menu-nav {
+  padding: 20px;
+  background-color: rgb(12, 10, 10);
+  display: flex;
+  align-items: flex-end;
+}
+
+nav ul {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-collapse .nav-link {
+  color: rgb(36, 34, 34);
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+p2 {
+  color: rgb(35, 1, 1);
+  height: 100px;
+  font-weight: bolded;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin: 90px;
+  border-top: 3px solid black;
+}
+
+.CVS {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 130px;
+}
+
+/* MEDIA QUERIES*/
+@media only screen and (max-width: 576px) {
+  /*index*/
+  .parallax {
+    height: 800px;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  /*about me*/
+  .about-me {
+    flex-direction: column;
+  }
+  .about-me img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
